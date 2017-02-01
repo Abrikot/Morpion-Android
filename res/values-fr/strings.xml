@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="newGame">Nouvelle partie</string>
+    <string name="resume">Reprendre</string>
+    <string name="archive">Historique</string>
+    <string name="score">Scores</string>
+    <string name="rules">Règles</string>
+    <string name="mainUser">Sélectionnez l\'utilisateur principal</string>
+    <string name="secondUser">Sélectionnez le second utilisateur</string>
+    <string name="newUser">Nouveau joueur</string>
+    <string name="createNewUser">Créer</string>
+    <string name="welcome">Bienvenue %1$s</string>
+    <string name="rulesText">XOXO est un jeu de tic-tac-toe. Chaque joueur est représenté par un symbole (une croix ou un cercle). Chacun à son tour, le premier et le second joueur doivent placer un de leur symbole dans une case libre du damier. Le but du jeu est d\'aligner trois fois le même symbole. Le premier joueur à y parvenir gagne la partie. Si les 9 cases sont remplies sans qu\'aucun joueur n\'ait gagné auparavant, la partie est déclarée nulle.</string>
+    <string name="back">Retour</string>
+    <string name="players_turn">Au tour de %1$s</string>
+    <string name="endGame">Le joueur %1$s a gagné la partie.</string>
+    <string name="draw">Match nul</string>
+    <string name="saveGame">Voulez-vous sauvegarder la partie ?</string>
+    <string name="replay">Rejouer</string>
+    <string name="look_again">Revoir la partie</string>
+    <string name="backToMenu">Retour au menu</string>
+</resources>

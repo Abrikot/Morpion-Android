@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:orientation="vertical">
+
+    <fragment
+        android:id="@+id/connectionToolbar"
+        android:name="sebere_peree_dulie_cornaton.xoxo.Fragments.ToolbarFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/playerTurn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="45"
+        android:text="Player's turn"
+        android:textSize="25sp"
+        android:textAlignment="center"/>
+
+    <fragment
+        android:id="@+id/boardFragment"
+        android:name="sebere_peree_dulie_cornaton.xoxo.Fragments.BoardFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="15"/>
+
+    <Button
+        android:id="@+id/rulesButton"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/rules"
+        android:layout_weight="45"/>
+</LinearLayout>

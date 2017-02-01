@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:orientation="vertical">
+
+    <fragment
+        android:id="@+id/connectionToolbar"
+        android:name="sebere_peree_dulie_cornaton.xoxo.Fragments.ToolbarFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="35sp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/newGame"
+                    style="@style/buttons"
+                    android:text="@string/newGame"
+                    android:layout_centerHorizontal="true"/>
+
+                <Button
+                    android:id="@+id/resume"
+                    style="@style/buttons"
+                    android:layout_below="@id/newGame"
+                    android:text="@string/resume"
+                    android:layout_centerHorizontal="true"/>
+
+                <Button
+                    android:id="@+id/archive"
+                    style="@style/buttons"
+                    android:layout_below="@id/resume"
+                    android:text="@string/archive"
+                    android:layout_centerHorizontal="true"/>
+
+                <Button
+                    android:id="@+id/score"
+                    style="@style/buttons"
+                    android:layout_below="@id/archive"
+                    android:text="@string/score"
+                    android:layout_centerHorizontal="true"/>
+
+                <Button
+                    android:id="@+id/rules"
+                    style="@style/buttons"
+                    android:layout_below="@id/score"
+                    android:text="@string/rules"
+                    android:layout_centerHorizontal="true"/>
+            </RelativeLayout>
+
+        </ScrollView>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">XOXO</string>
+    <string name="newGame">New game</string>
+    <string name="resume">Resume</string>
+    <string name="archive">Archive</string>
+    <string name="score">Score</string>
+    <string name="rules">Rules</string>
+    <string name="mainUser">Select the main user</string>
+    <string name="secondUser">Select the second user</string>
+    <string name="newUser">New user</string>
+    <string name="createNewUser">Create</string>
+    <string name="welcome">Welcome %1$s</string>
+    <string name="rulesText">XOXO is a tic-tac-toe-game. Each player is represented by a sign (a black circle or a white one). Alternatively, the first and the second player must place one of their sign on a free case. The goal is to align three same signs. The first player who achieves it win the game. If each of the 9 cases are filled before any player win, the game is a draw.</string>
+    <string name="back">Back</string>
+    <string name="players_turn">%1$s\'s turn</string>
+    <string name="endGame">Player %1$s won the game.</string>
+    <string name="draw">It\'s a draw !</string>
+    <string name="saveGame">Would you like to save this game ?</string>
+    <string name="replay">Replay</string>
+    <string name="look_again">Watch the match again</string>
+    <string name="backToMenu">Back to the menu</string>
+</resources>
