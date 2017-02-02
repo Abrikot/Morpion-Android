@@ -15,7 +15,7 @@ Durant notre seconde année de DUT, il nous a été demandé de concevoir puis d
 Voici les fonctionnalités demandées :
 - Pouvoir effectuer une partie de Morpion entre deux joueurs humains
 - Enchaîner les parties en gardant le score
-- Enregistrer la partie en cours et le score afin de pouvoir reprendre la partie ensuie
+- Enregistrer la partie en cours et le score afin de pouvoir reprendre la partie ensuite
 - Permettre de visionner la partie qui vient d'être jouée.
 
 En plus de ces fonctionnalités, nous en avons implémenté d'autres :
